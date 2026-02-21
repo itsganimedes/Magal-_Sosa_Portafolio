@@ -113,8 +113,8 @@ main .img_text{
         background-position: center;
         position: absolute;
         right: 0;
-        transform: translateX(3rem);
-        bottom: 0;
+        transform: translateX(0);
+        bottom: 50rem;
         z-index: -1;
     }
     #section1{
