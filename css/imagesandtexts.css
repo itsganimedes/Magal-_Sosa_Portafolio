@@ -117,6 +117,9 @@ main .img_text{
         bottom: 0;
         z-index: -1;
     }
+    #section1{
+        margin-bottom: 3rem;
+    }
 }
 
 @media (max-width: 650px)
@@ -124,6 +127,7 @@ main .img_text{
     #section1{
         margin: 0 -2rem;
         height: auto;
+        margin-bottom: 3rem;
     }
 
     .img_text .p2{
