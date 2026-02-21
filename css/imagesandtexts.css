@@ -18,7 +18,7 @@ main .img_text{
     width: 70%;
 }
 
-#section1{
+#sobre_mi{
     background: #4C3363;
     background: linear-gradient(90deg, rgba(76, 51, 99, 1) 0%, rgba(76, 51, 99, 1) 50%, rgba(102, 65, 140, 1) 100%);
     margin: 0 -5rem;
@@ -117,14 +117,14 @@ main .img_text{
         bottom: 50rem;
         z-index: -1;
     }
-    #section1{
+    #sobre_mi{
         margin-bottom: 3rem;
     }
 }
 
 @media (max-width: 650px)
 {
-    #section1{
+    #sobre_mi{
         margin: 0 -2rem;
         height: auto;
         margin-bottom: 3rem;

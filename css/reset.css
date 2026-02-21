@@ -5,8 +5,17 @@
     transition: 0.3s;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Inter', sans-serif;
+    position: relative;
+}
+
+body.active{
+    overflow: hidden;
 }
 
 .content{
@@ -47,4 +56,32 @@ a:hover{
     .content{
         padding: 2rem 2rem;
     }
+}
+
+.back_to_top{
+    position: fixed;
+    bottom: 2rem;
+    right: 3rem;
+    width: 50px;
+    height: 50px;
+    background: #4C3363;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(20px);
+    transition: 0.3s ease;
+
+    z-index: 1000;
+}
+
+.back_to_top.active{
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
 }

@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+#proyectos{
+    margin-bottom: 3rem;
+}
+
 .project,
 .project_2,
 .project_3{
@@ -148,13 +152,20 @@
         height: 60rem;
     }
 
-    .project_4,
-    .project_5{
+    .project_4{
         width: 100%;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         height: 50rem;
+    }
+
+    .project_5{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 40rem;
     }
 
     .project_p1{
